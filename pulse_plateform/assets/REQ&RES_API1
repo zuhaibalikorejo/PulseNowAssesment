@@ -1,0 +1,85 @@
+API-1:onboarding/v1/get-applications
+
+
+REQUEST for screen 2:
+{
+     "emiratesIdentifier":"784199243719855",--->(need to confirm regarding EID)
+    "staffId": "FABS1141", 
+    "journeyType": "NTB_CC",
+    "startDate": "2023-01-01",
+    "endDate": "2023-01-31"
+}
+
+
+
+RESPONSE:
+{
+   "applicationArea":    {
+      "countryOfOrigin": "AE",
+      "senderId": "MOB",
+      "transactionId": "I16AB3E65531A45828A053A14AF9E0AEC",
+      "transactionDateTime": "2023-XX-XXT13:27:16.016Z",
+      "language": "EN",
+      "creationDateTime": "12/Jan/2023 13:27:16",
+      "requiredExecutionDate": "12/Jan/2023 13:27:16"
+   },
+   "responseStatus": {"status": "SUCCESS"},
+   "dataArea": {"applications":    [
+            {
+         "referenceId": "d7e4f32db7a740538a3030cf59de42f3",
+         "mobileNumber": "0544256901",
+         "email": "ytt66@gmail.com",
+         "deviceIdentifier": "6a5a1229-f8f5-43c8-a404-cb86c7a8d59e",
+         "emiratesIdentifier": "784199243719855",
+         "initiationType": "NTB_CC",
+         "tncAgreedOn": "2023-02-01T19:30:09.679",
+         "overallStatus": "CARD_ERROR",
+         "bpmReferenceIdentifier": "NTBCC00003600",   // submite / non submite
+         "customerName": "SWAGATIKA KAR SHYAMA PRASAD KAR",
+         "leadIdentifier": "L-0000184051",
+         "productDescription": "Du Platinum Credit Card"
+      },
+            {
+         "referenceId": "a5d4bade2eef41c78c8b2ae02e65d6ef",
+         "mobileNumber": "0544256852",
+         "email": "abcdef@gmail.com",
+         "deviceIdentifier": "dd3bb708-c7b1-461b-be42-d695e4006975",
+         "emiratesIdentifier": "784199243719855",
+         "initiationType": "NTB_CC",
+         "tncAgreedOn": "2023-02-01T16:30:26.987",
+         "overallStatus": "CARD_REJECTED",
+         "bpmReferenceIdentifier": "NTBCC00003595",
+         "customerName": "SWAGATIKA KAR SHYAMA PRASAD KAR",
+         "leadIdentifier": null,
+         "productDescription": "FAB SHARE Standard Credit Card"
+      },
+            {
+         "referenceId": "17183acde4df48b7a7371129f99e0b8b",
+         "mobileNumber": "0544207187",
+         "email": "abcdef@gmail.com",
+         "deviceIdentifier": "dd3bb708-c7b1-461b-be42-d695e4006975",
+         "emiratesIdentifier": "784199243719855",
+         "initiationType": "NTB_CC",
+         "tncAgreedOn": null,
+         "overallStatus": "PRODUCT_SELECTION",
+         "bpmReferenceIdentifier": null,
+         "customerName": "SWAGATIKA KAR SHYAMA PRAS KAR",
+         "leadIdentifier": null,
+         "productDescription": "FAB SHARE Standard Credit Card"
+      },
+            {
+         "referenceId": "e3a279331ea043788802142429fc30d7",
+         "mobileNumber": "0544207186",
+         "email": "yry6t@gmail.com",
+         "deviceIdentifier": "dd3bb708-c7b1-461b-be42-d695e4006975",
+         "emiratesIdentifier": "784199243719855",
+         "initiationType": "NTB_CASA",
+         "tncAgreedOn": "2023-02-01T15:23:28.527",
+         "overallStatus": "ACCOUNT_CREATED",
+         "bpmReferenceIdentifier": "CASA00002999",
+         "customerName": "SWAGATIKA KAR SHYAMA PRASAD KAR",
+         "leadIdentifier": null,
+         "productDescription": "Savings Accounts"
+      }
+   ]}
+}
