@@ -1,0 +1,86 @@
+name: pulse_plateform
+description: "A Flutter project for cryptocurrency market data"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.4.9
+
+  # JSON serialization
+  json_annotation: ^4.8.1
+
+  # Internationalization and formatting
+  intl: ^0.19.0
+
+  # Cupertino icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generation
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+  # Linting
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/
+    - assets/lottie/
+    - assets/stubs/
+    - assets/cert/
+
+  # Fonts
+  fonts:
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/CircularStd-Book.ttf
+          weight: 400
+        - asset: assets/fonts/CircularStd-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/CircularStd-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/CircularStd-Black.ttf
+          weight: 900
+
+    - family: Graphik
+      fonts:
+        - asset: assets/fonts/Graphik_regular.otf
+          weight: 400
+        - asset: assets/fonts/Graphik_medium.otf
+          weight: 500
+        - asset: assets/fonts/Graphik_Semibold.otf
+          weight: 600
+        - asset: assets/fonts/Graphik_bold.otf
+          weight: 700
+
+    - family: FSMatthew
+      fonts:
+        - asset: assets/fonts/FSMatthew_Regular.otf
+          weight: 400
+        - asset: assets/fonts/FSMatthew_Medium.otf
+          weight: 500
+        - asset: assets/fonts/FSMatthew_bold.otf
+          weight: 700
+
+    - family: FABCurrencies
+      fonts:
+        - asset: assets/fonts/FABCurrencies-Regular.otf
+          weight: 400
+        - asset: assets/fonts/FABCurrencies-Bold.otf
+          weight: 700
+
